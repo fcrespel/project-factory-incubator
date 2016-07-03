@@ -1,0 +1,66 @@
+<!--
+  #[
+  Project Factory Incubator
+  ##
+  Copyright (C) 2013 - 2016 Project Factory team and contributors
+  ##
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU Affero General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  #]
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>fr.project-factory.core.packages</groupId>
+		<artifactId>packages</artifactId>
+		<version>3.3.0-SNAPSHOT</version>
+		<relativePath>../project-factory-core/packages/pom.xml</relativePath>
+	</parent>
+
+	<groupId>fr.project-factory.incubator</groupId>
+	<artifactId>incubator</artifactId>
+	<packaging>pom</packaging>
+
+	<name>Project Factory Incubator</name>
+	<description>Project Factory Incubator Packages</description>
+
+	<scm>
+		<connection>scm:git:ssh://ittb-gitlab@cgi.it-toolbox.fr/project-factory/project-factory-incubator.git</connection>
+		<developerConnection>scm:git:ssh://ittb-gitlab@cgi.it-toolbox.fr/project-factory/project-factory-incubator.git</developerConnection>
+		<url>https://cgi.it-toolbox.fr/gitlab/project-factory/project-factory-incubator</url>
+	</scm>
+	<repositories>
+		<repository>
+			<id>it-toolbox-oss</id>
+			<name>iT-Toolbox OSS</name>
+			<url>https://cgi.it-toolbox.fr/nexus/content/groups/it-toolbox-oss/</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>it-toolbox-oss</id>
+			<name>iT-Toolbox OSS</name>
+			<url>https://cgi.it-toolbox.fr/nexus/content/groups/it-toolbox-oss/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<modules>
+		<module>system</module>
+		<module>admin</module>
+		<module>services</module>
+	</modules>
+
+</project>
