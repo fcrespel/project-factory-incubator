@@ -38,22 +38,22 @@
 	<description>Project Factory Incubator Packages</description>
 
 	<scm>
-		<connection>scm:git:ssh://ittb-gitlab@cgi.it-toolbox.fr/project-factory/project-factory-incubator.git</connection>
-		<developerConnection>scm:git:ssh://ittb-gitlab@cgi.it-toolbox.fr/project-factory/project-factory-incubator.git</developerConnection>
-		<url>https://cgi.it-toolbox.fr/gitlab/project-factory/project-factory-incubator</url>
+		<connection>scm:git:ssh://git@github.com:fcrespel/project-factory-incubator.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:fcrespel/project-factory-incubator.git</developerConnection>
+		<url>https://github.com/fcrespel/project-factory-incubator</url>
 	</scm>
 	<repositories>
 		<repository>
-			<id>it-toolbox-oss</id>
-			<name>iT-Toolbox OSS</name>
-			<url>https://cgi.it-toolbox.fr/nexus/content/groups/it-toolbox-oss/</url>
+			<id>project-factory</id>
+			<name>Project Factory</name>
+			<url>https://forge.crespel.me/nexus/content/groups/project-factory/</url>
 		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>it-toolbox-oss</id>
-			<name>iT-Toolbox OSS</name>
-			<url>https://cgi.it-toolbox.fr/nexus/content/groups/it-toolbox-oss/</url>
+			<id>project-factory</id>
+			<name>Project Factory</name>
+			<url>https://forge.crespel.me/nexus/content/groups/project-factory/</url>
 		</pluginRepository>
 	</pluginRepositories>
 

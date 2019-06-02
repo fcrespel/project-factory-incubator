@@ -2,15 +2,11 @@
 
 **Project Factory** is a fully integrated stack of open source tools for software project management.
 
-See <http://project-factory.fr> for more information.
+See <https://project-factory.fr> for more information and documentation.
 
 ## Incubator repository
 
 The **project-factory-incubator** repository provides packages that may be incomplete and are not yet part of the official packages repository.
-
-## Documentation
-
-Documentation is available at <https://it-toolbox.github.io/project-factory-core/>
 
 ## License
 
